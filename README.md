@@ -1,14 +1,11 @@
 ﻿# projeto-pontosDeColetas
 
 # Server
-npm i 
-
-<p>npm run knex:migrate</p>
-<p>npm run knex:seed</p>
-<p>npm run dev</p>
-
-
+* npm i 
+* npm run knex:migrate
+* npm run knex:seed
+* npm run dev
 
 # Web
-npm i
-npm run dev
+* npm i
+* npm run dev
