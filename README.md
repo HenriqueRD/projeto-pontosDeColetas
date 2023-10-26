@@ -2,9 +2,12 @@
 
 # Server
 npm i 
-npm run knex:migrate
-npm run knex:seed
-npm run dev
+
+<p>npm run knex:migrate</p>
+<p>npm run knex:seed</p>
+<p>npm run dev</p>
+
+
 
 # Web
 npm i
