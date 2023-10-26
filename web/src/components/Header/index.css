@@ -1,0 +1,27 @@
+#Header {
+  margin-bottom: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#Header .logo{
+  display: flex;
+  gap: .8rem;
+}
+#Header .logo > svg{
+  color: var(--primary-color);
+}
+#Header .back {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+  text-decoration: none;
+}
+#Header .back strong {
+  color: var(--title-color);
+  font-size: 1.1rem;
+
+}
+#Header .back  svg{
+  color: var(--primary-color);
+}

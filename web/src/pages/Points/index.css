@@ -1,0 +1,54 @@
+#Points  {
+  max-width: 750px;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #FFF;
+  padding: 2rem;
+}
+#Points > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+#Points > div h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+}
+#Points .leaflet-container {
+  width: 100%;
+  height: 480px;
+  border-radius: 8px;
+  border: 2px solid var(--input-color);
+  transition: 200ms;
+}
+#Points .leaflet-container:hover {
+  border: 2px solid var(--primary-color);
+}
+#Points .cards {
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  gap: 1.2rem;
+}
+#Points .cardsContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  width: 106px;
+  height: 46px;
+} 
+.leaflet-popup-content-wrapper a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--title-color);
+}
+.leaflet-popup-content-wrapper a:hover {
+  text-decoration: underline;
+} 

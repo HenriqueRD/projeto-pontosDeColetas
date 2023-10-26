@@ -1,0 +1,24 @@
+#Card {
+  background-color: #E1FAEC;
+  width: 190px;
+  height: 180px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  gap: 1.5rem;
+  color: var(--title-color);
+  border: 2px solid transparent;
+  font-weight: 500;
+  transition: 200ms;
+}
+#Card:hover {
+  border-color: var(--primary-color);
+}
+
+#Card.selected {filter: saturate(2.6);
+  border-color: var(--primary2-color);
+
+}

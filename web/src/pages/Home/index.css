@@ -1,0 +1,120 @@
+#Home {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+#Home > div {
+  max-width: 500px;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+}
+#Home  div > h1 {
+  font-size: 3.5em;
+  line-height:4rem;
+}
+#Home  div > p {
+  font-size: 1.2em;
+}
+#Home  div > a {
+  width: 100%;
+  max-width: 360px;
+  height: 70px;
+  background: var(--primary-color);
+  border-radius: 8px;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  margin-top: 1rem;
+}
+#Home  div > a span {
+  display: block;
+  background: rgba(0, 0, 0, 0.08);
+  width: 72px;
+  height: 72px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Home  div > a span svg{
+  color: white;
+  width: 20px;
+  height: 20px;
+}
+#Home  div > a strong {
+  flex: 1;
+  text-align: center;
+  color: #FFF;
+}
+#Home div > a:hover {
+  background: #2FB86E;
+}
+#Home form > button:hover {
+  background: #2FB86E;
+}
+#Home form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#Home form .input select {
+  max-width: 290px;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  flex: 1;
+  background: #FFF;
+  border-radius: 8px;
+  border: 0;
+  padding: 16px 24px;
+  border: 2px solid transparent;
+  font-size: 16px;
+  color: #6C6C80;
+}
+#Home form .input select:hover {
+  border-color: var(--primary2-color);
+}
+#Home form .input select:focus {
+  border-color: var(--primary2-color);
+}
+#Home form > button {
+  width: 100%;
+  max-width: 290px;
+  height: 56px;
+  background: var(--primary-color);
+  border-radius: 8px;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+#Home form > button span {
+  display: block;
+  background: rgba(0, 0, 0, 0.08);
+  width: 72px;
+  height: 72px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Home form > button span svg{
+  color: white;
+  width: 20px;
+  height: 20px;
+}
+#Home form > button strong {
+  flex: 1;
+  text-align: center;
+  color: #FFF;
+}
